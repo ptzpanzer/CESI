@@ -1,4 +1,4 @@
-This is the code appendix to PAKDD 2025 Paper: 
+This is the code appendix to ECML-PKDD 2025 Paper: 
 Li, Chaofan, Till Riedel, and Michael Beigl. "CESI: Sparse Input Spatial Interpolation for Heterogeneous and Noisy Hybrid Wireless Sensor Networks." Joint European Conference on Machine Learning and Knowledge Discovery in Databases. Cham: Springer Nature Switzerland, 2025.
 
 
@@ -48,3 +48,4 @@ Li, Chaofan, Till Riedel, and Michael Beigl. "CESI: Sparse Input Spatial Interpo
 	- 3. Set use_config = "config_kfold_burn" in './GNN_INTP/config_manager.py'
 
 	- 4. Run './GNN_INTP/01.wandb_start.py'
+
