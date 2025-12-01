@@ -1,3 +1,7 @@
+This is the code appendix to PAKDD 2025 Paper: 
+Li, Chaofan, Till Riedel, and Michael Beigl. "CESI: Sparse Input Spatial Interpolation for Heterogeneous and Noisy Hybrid Wireless Sensor Networks." Joint European Conference on Machine Learning and Knowledge Discovery in Databases. Cham: Springer Nature Switzerland, 2025.
+
+
 1. First, download dataset and transform them to the 'Standard Format' with the codes in './Data_Preprocessing/', further instructions see readme.txt in the folders.
 	- As a result of this step, each dataset will become a set of narrow format .csv files stored in a Folder named 'Dataset_name/Dataset_Separation/'
 
@@ -42,4 +46,5 @@
 		copy 'meta_data.json', 'log.pkl' and 'Folds_info' in OceanAt_res250_reg4c to all these folders
 	- 2. Set Experiments configs in './GNN_INTP/configs_files/config_kfold_burn.py'
 	- 3. Set use_config = "config_kfold_burn" in './GNN_INTP/config_manager.py'
+
 	- 4. Run './GNN_INTP/01.wandb_start.py'
