@@ -1,0 +1,261 @@
+LfU Stations:	8 Things
+	1. mcpm10 		ug/m3
+
+
+EDM-164: 		6 Things
+	1. mcpm10 		ug/m3
+	2. mcpm2p5		ug/m3
+	3. ta			degC
+	4. hur			%
+	5. plev			hPa
+
+	_6. mcpm1 		ug/m3
+	_7. mcpm4		ug/m3
+	_8. ncpm10		ug/m3（？）
+
+
+EDM-80NEPH:		22 Things
+	1. mcpm10		ug/m3
+	2. mcpm2p5		ug/m3
+	3. ta 			degC
+	4. hur			%
+
+	_5. mcpm1 		ug/m3	
+	_6. mcpm4		ug/m3
+	_7. td			degC
+	_8. cal_edm80neph_zero_det
+	_9. cal_edm80neph_zero_N-1
+	_10. cal_edm80neph_no_zero
+
+
+EDM-80OPC:		36 Things
+	1. mcpm10		ug/m3
+	2. mcpm2p5		ug/m3
+	3. ta 			degC
+	4. hur			%
+
+	_5. mcpm1 		ug/m3
+
+
+
+CrowdSensing:	95 Things
+	1. mcpm10		ug/m3
+	2. mcpm2p5		ug/m3
+	3. ta 			degC
+	4. hur			%
+	5. plev			hPa
+
+	
+HMGU_PM:		1 Things
+	1. mcpm10		ug/m3
+	2. mcpm10		ug/m3
+	3. mcpm10		ug/m3
+	4. mcpm2p5		ug/m3
+	5. mcpm2p5 		ug/m3
+	6. mcpm2p5 		ug/m3
+
+	_7. mcpm 		ug/m3
+	_8. mcpm1 		ug/m3
+	_9. mcpm1 		ug/m3
+	_10. ncpm 		#/cm3
+	_11. ncpm1 		#/cm3
+	_12. ncpm1 		#/cm3
+	_13. ncpm2p5	#/cm3
+	_14. ncpm2p5	#/cm3
+	_15. ncpm2p5	#/cm3
+	_16. ncpm10		#/cm3
+	_17. bc			ug/m3
+	_18. bc			ug/m3
+
+
+HMGU_Meteo:		1 Things
+	1. ta 			degC
+	2. hur			%
+	3. plev			hPa
+	4. precip		kg/m2
+	5. wdir			rad (0-360)
+	6. wspeed		m/s
+
+
+IGUA_Meteo_1:	1 Things
+	1. ta 			degC
+	2. hur			%
+	3. plev			hPa
+	4. precip		mm 									Precipitation sum of the last 5 min
+	5. wdir			deg (0-360)		saqn:ds:2ceb1eb		Wind Direction mean of the last 5 min
+	6. wspeed		m/s 			saqn:ds:0820856		Wind Speed mean of the last 5 min
+	7. globalrad	W/m2
+
+	_8. wdir		deg (0-360) 	saqn:ds:b550fa7		Wind Direction mean of the last 5 min on a 10m pole
+	_9. wspeed		m/s 			saqn:ds:ff8656d		Wind Speed mean of the last 5 min on a 10m pole
+	_10. wspeed		m/s 			saqn:ds:d33f89a		Wind Speed maximun of the last 5 min
+	_11. wspeed		m/s 			saqn:ds:f605bc8		Wind Speed maximum of the last 5 min on a 10m pole
+	_12. wchill		degC
+
+
+IGUA_Meteo_2:	1 Things
+	1. ta 			degC
+	2. hur			%
+	3. plev			hPa
+	4. precip		mm 									Precipitation sum of the last 5 min
+	5. wdir			deg (0-360)							Wind Direction mean of the last 5 min
+	6. wspeed		m/s 			saqn:ds:50f7b26		Wind Speed mean of the last 5 min
+	7. globalrad	W/m2
+
+	_8. wspeed		m/s 			saqn:ds:eef46c0		Wind Speed maximun of the last 5 min
+	_9. wchill		degC
+
+
+ONOCA_Meteo_3:	1 Things 	(Königsplatz)
+	1. ta 			degC
+	2. hur			%
+	3. plev			hPa
+	4. precip		mm 									Precipitation sum of the last 5 min
+	5. wdir			deg (0-360)							Wind Direction mean of the last 5 min
+	6. wspeed		km/h 			saqn:ds:9786d4e		Wind Speed mean of the last 5 min
+	7. globalrad	W/m2
+
+	_8. wspeed		km/h 			saqn:ds:1e1ea8d		Wind Speed maximun of the last 5 min
+
+
+ONOCA_Meteo_4:	1 Things 	(Rotes Tor)
+	1. ta 			degC
+	2. hur			%
+	3. plev			hPa
+	4. wdir			deg (0-360)							Wind Direction mean of the last 5 min
+	5. wspeed		km/h 			saqn:ds:7d80961		Wind Speed mean of the last 5 min
+
+	_6. wspeed		km/h 			saqn:ds:39eecbc		Wind Speed maximun of the last 5 min
+
+
+ONOCA_Meteo_5:	1 Things 	(st Stephan)
+	1. ta 			degC
+	2. hur			%
+	3. plev			hPa
+	4. precip		mm 									Precipitation sum of the last 5 min
+	7. globalrad	W/m2
+
+
+ONOCA_Meteo_6:	1 Things	(Kobelweg)
+	1. ta 			degC
+	2. hur			%
+	3. plev			hPa
+	4. precip		mm 									Precipitation sum of the last 5 min
+	5. wdir			deg (0-360)							Wind Direction mean of the last 5 min
+	6. wspeed		m/s 			saqn:ds:d291512		Wind Speed mean of the last 5 min
+	7. globalrad	W/m2
+
+	_8. wspeed		m/s 			saqn:ds:5d53914		Wind Speed maximun of the last 5 min
+
+
+ONOCA_Meteo_7:	1 Things	(University Hospital)
+	1. ta 			degC
+	2. wdir			deg (0-360)							Wind Direction mean of the last 5 min
+	3. wspeed		m/s 			saqn:ds:9e0ad57		Wind Speed mean of the last 5 min
+
+	_4. wspeed		m/s 			saqn:ds:75dd233		Wind Speed maximun of the last 5 min
+
+
+Trolley_A:      1 Things    (saqn:t:82c620f)
+    1. mcpm10       ug/m3                               PM 10 meausred by DustTrack DRX
+    2. mcpm10       ug/m3                               PM 10 meausred by Grimm11e
+    3. mcpm10       ug/m3                               PM 10 meausred by Grimm11e
+    4. mcpm2p5      ug/m3                               PM 2.5 meausred by DustTrack DRX
+    5. mcpm2p5      ug/m3                               PM 2.5 meausred by Grimm11e
+    6. mcpm2p5      ug/m3                               PM 2.5 meausred by Grimm11e
+    7. ta 			degC                                Temperature meausred by Testo Discmini
+
+    _8. mcpm 		ug/m3                               PM Total Mass Concentration meausred by Grimm11e
+    _9. mcpm 		ug/m3                               PM Total Mass Concentration meausred by Grimm11e
+    _10. mcpm1 		ug/m3                               PM1 meausred by DustTrack DRX
+    _11. mcpm1 		ug/m3                               PM1 meausred by Grimm11e
+    _12. mcpm1 		ug/m3                               PM1 meausred by Grimm11e
+    _13. mcresp 	ug/m3                               Resp meausred by DustTrack DRX
+    _14. mcpmtotal 	ug/m3                               Total meausred by DustTrack DRX
+    _15. total    	ug/m3                               TC meausred by AEROCET
+    _16. pnc0p2-1 	count                               PNC meausred by PTrack TSI
+    _17. pnc0p2-1 	count                               pnc meausred by CPC3007
+    _18. uvbcc    	?                                   UVBCc meausred by MA200
+    _19. irbcc    	?                                   IRBCc meausred by MA200
+
+
+Trolley_B:      2 Things    (saqn:t:ce97848, saqn:t:d154ef6)
+    1. mcpm10       ug/m3                               PM 10 meausred by DustTrack DRX
+    2. mcpm10       ug/m3                               PM 10 meausred by Grimm11e
+    3. mcpm2p5      ug/m3                               PM 2.5 meausred by DustTrack DRX
+    4. mcpm2p5      ug/m3                               PM 2.5 meausred by Grimm11e
+    5. ta 			degC                                Temperature meausred by Testo Discmini
+
+    _6. mcpm 		ug/m3                               PM Total Mass Concentration meausred by Grimm11e
+    _7. mcpm1 		ug/m3                               PM1 meausred by DustTrack DRX
+    _8. mcpm1 		ug/m3                               PM1 meausred by Grimm11e
+    _9. mcresp 	ug/m3                                   Resp meausred by DustTrack DRX
+    _10. mcpmtotal 	ug/m3                               Total meausred by DustTrack DRX
+    _11. total    	ug/m3                               TC meausred by AEROCET
+    _12. pnc0p2-1 	count                               PNC meausred by PTrack TSI
+    _13. pnc0p2-1 	count                               pnc meausred by CPC3007
+    _14. uvbcc    	?                                   UVBCc meausred by MA200
+    _15. uvbcc    	?                                   UVBCc meausred by MA200
+    _16. irbcc    	?                                   IRBCc meausred by MA200
+    _17. irbcc    	?                                   IRBCc meausred by MA200
+
+
+Bike_A:	        1 Things    (saqn:t:geo.uni-augsburg.de:Tasche:9)
+    1. mcpm10       ug/m3
+    2. mcpm10       ug/m3
+    3. mcpm2p5      ug/m3
+    4. mcpm2p5      ug/m3
+    5. ta 			degC
+    6. ta 			degC
+    7. hur			%
+    8. hur			%
+
+    _9. mcpm1 		ug/m3
+    _10. mcpm1 		ug/m3
+    _11. ncpm10 	count
+    _12. ncpm10 	count
+    _13. dp 		degC
+    _14. dp 		degC
+
+
+Bike_B:	        1 Things    (saqn:t:geo.uni-augsburg.de:Tasche:7)
+    1. mcpm10       ug/m3
+    2. mcpm2p5      ug/m3
+    3. ta 			degC
+    4. ta 			degC
+    5. hur			%
+    6. hur			%
+
+    _7. mcpm1 		ug/m3
+    _8. ncpm10 	    count
+    _9. dp 		    degC
+    _10. dp 		degC
+
+
+Bike_C:	        9 Things
+    1. mcpm10       ug/m3
+    2. mcpm2p5      ug/m3
+    3. ta 			degC
+    4. hur			%
+
+    _5. mcpm1 		ug/m3
+    _6. ncpm10 	    count
+    _7. dp 		    degC
+
+
+CL:				3 Things - IGNORE
+	_1. absp
+	_2. blh
+	_3. ca
+	_4. zcb
+	_5. zcl
+
+
+SODAR:			1 Things - IGNORE
+	_1. wdir
+	_2. wspeed
+	_3. sigmaw
+	_4. theta_a
+
+
+UAV:	        5 Things - IGNORE

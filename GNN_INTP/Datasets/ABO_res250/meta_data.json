@@ -1,0 +1,1 @@
+{"op_dic": {"temperature": 0, "windDir": 1, "windSpeed": 2}, "tgt_op": "temperature", "tgt_logical": ["temperature"], "eu_col": {"Longitude": [0, 250], "Latitude": [0, 250], "altitude": [-235.0, 30500.0]}, "non_eu_col": {"Thing": [0, 3]}, "holdouts": {}, "lowest_rank": 1}
